@@ -37,7 +37,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 .2rem;
-    background-color: rgba(48, 48, 48, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     /*background: linear-gradient(to bottom, transparent 0%,rgba(30, 30, 30, .2) 40%,rgba(30, 30, 30, .3) 50%,rgba(30, 30, 30, .2) 60%, transparent 100%);*/
     width: 100%;
 }
@@ -108,8 +108,8 @@ header {
 .mobile-menu {
     display: none;
     position: fixed;
-    top: 6.6rem;
-    background-color: rgba(15, 15, 15, 0.4);
+    top: 8.8rem;
+    background-color: rgba(0, 0, 0, 0.3);
     right: -4rem;
     width: 4rem;
     height: auto;
@@ -441,7 +441,8 @@ header {
 }
 .caja-s, .caja-g, .caja-w {
     margin: 8rem auto 0 auto;
-    width: 90%;
+    min-width: 38rem;
+    width: 95%;
     background-color: rgba(40, 40, 40, 0.550);
     height: auto;
     max-height: calc(100vh - 20rem);
