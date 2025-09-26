@@ -398,7 +398,8 @@ const routes = {
                         </ul>
                     </div>
                 </div>
-        </div>`,
+            </div>
+        `,
         backgroundImage: 'url(static/img/fondos/Carretera.webp)'
     },
     '/Nosotros': {
