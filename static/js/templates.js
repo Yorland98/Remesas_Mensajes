@@ -4,7 +4,7 @@ const routes = {
         content: `
         <div class="acordeon-container mostrar" id="acordeon-1">
             <div class="acordeon" id="acordeon-inicio">
-                <video src="static/img/fondos/video2.mp4" class="video-fondo" muted loop preload="auto"></video>
+                <video src="static/img/fondos/video2.mp4" class="video-fondo" muted loop preload="auto" alt="Video de la empresa"></video>
                 <div class="caja-acordeon">
                     <div class="acordeon-caja">
                         <button class="titulo-caja">Servicios</button>
@@ -17,7 +17,7 @@ const routes = {
                 </div>
             </div>
             <div class="acordeon" id="acordeon-medio">
-                <video src="static/img/fondos/video1.mp4" class="video-fondo" muted loop preload="auto"></video>
+                <video src="static/img/fondos/video1.mp4" class="video-fondo" muted loop preload="auto" alt="Video de la empresa"></video>
                 <div class="caja-acordeon">
                     <div class="acordeon-caja">
                         <button class="titulo-caja">Empresas</button>
@@ -29,7 +29,7 @@ const routes = {
                 </div>
             </div>
             <div class="acordeon" id="acordeon-final">
-                <video src="static/img/fondos/video3.mp4" class="video-fondo" muted loop preload="auto"></video>
+                <video src="static/img/fondos/video3.mp4" class="video-fondo" muted loop preload="auto" alt="Video de la empresa"></video>
                 <div class="caja-acordeon-final">
                     <div class="acordeon-caja">
                         <button class="titulo-caja">Saber Más... </button>
@@ -74,7 +74,7 @@ const routes = {
                 <div class="contenido-w" id="contenido-w7">
                     <h2>Yopal</h2>
                     <p>Carrera 5 #34-34 Local 2 Zona Industrial Bodegas de Serpet</p>
-                    <br><a href="https://www.google.com/maps?q=5.319710532574351, -72.40521511940669"><img src="static/img/mapas/mapa_sede_Yopal.webp" alt="Mapa de sede en Villavicencio" class="mapas"></a>
+                    <br><a href="https://www.google.com/maps?q=5.319710532574351, -72.40521511940669"><img src="static/img/mapas/mapa_sede_Yopal.webp" alt="Mapa de sede en Yopal" class="mapas"></a>
                 </div>
                 <div class="contenido-w" id="contenido-w8">
                     <form class="form-contacto" action="https://formsubmit.co/yorland1998@gmail.com" method="POST">
