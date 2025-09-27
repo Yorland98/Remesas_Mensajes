@@ -239,9 +239,8 @@ header {
     z-index: 1;
 }
 .whatsapp-button {
-    position: absolute;
-    bottom: 100%;
-    margin-bottom: .2rem;
+    position: fixed;
+    bottom: 6rem;
     right: .2rem;
     width: 4.5rem;
     height: 4.5rem;
