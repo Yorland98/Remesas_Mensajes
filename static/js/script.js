@@ -1,3 +1,20 @@
+const logoText = document.getElementById('logoText');
+console.log('Logo text element found:', logoText);
+console.log('Element styles:', window.getComputedStyle(logoText));
+if (logoText) {
+    const logoTextContent = 'Cargas y Encomiendas';
+    let j = 0;
+    
+    function logoTypeWriter() {
+        if (j < logoTextContent.length) {
+            logoText.textContent += logoTextContent.charAt(j);
+            j++; 
+            setTimeout(logoTypeWriter, 60);
+        }
+    }
+    
+    setTimeout(logoTypeWriter, 500);
+}
 const navigateTo = url => {
     window.location.hash = url.startsWith('#') ? url : '#' + url;
 };

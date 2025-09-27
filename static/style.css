@@ -29,17 +29,19 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0;
+    padding: 0 0 2rem 0;
     z-index: 2;
+    overflow: visible;  
 }
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 .2rem;
+    padding: 0 .2rem 2rem .2rem;
     background-color: rgba(0, 0, 0, 0.3);
-    /*background: linear-gradient(to bottom, transparent 0%,rgba(30, 30, 30, .2) 40%,rgba(30, 30, 30, .3) 50%,rgba(30, 30, 30, .2) 60%, transparent 100%);*/
     width: 100%;
+    min-height: 8rem;
+    overflow: visible;
 }
 .main-nav {
     padding: .1rem;
@@ -53,8 +55,26 @@ header {
     flex: 0 1 auto;
     display: flex;
     align-items: center;
-    margin:  0;
-    padding: .5rem 0 0 1rem;
+    margin: 0;
+    padding: .5rem 0 0 .2rem;
+    position: relative;
+    overflow: visible;
+}
+.logo-text {
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: "Angsana New", serif;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    opacity: 0;
+    animation: fadeInLogo 0.5s ease forwards;
+    animation-delay: 0.5s;
+}
+@keyframes fadeInLogo {
+    to {opacity: 1;}
 }
 .menu-container, .menú-1-contain {
     display: flex;
@@ -213,7 +233,7 @@ header {
     position: absolute;
     left: .3rem;
     width: auto;
-    height: 4rem;
+    height: 5rem;
     bottom: 100%;
     margin-bottom: .2rem;
     z-index: 1;
@@ -235,7 +255,7 @@ header {
     object-fit: contain;
     transition: opacity 0.3s ease;
 }
-.logo {padding: 0 .5rem;height: 8rem;}
+.logo {height: 6rem;}
 .navbar .Oculto, .menú-1-contain, #whatsapp-button {display: none;}
 .menu-toggle ion-icon {font-size: 1.6rem;}
 .mobile-menu.active {right: 0;}
@@ -729,7 +749,7 @@ header {
         bottom: 3.4rem;
         z-index: 2;
         width: auto;
-        height: 3rem;
+        height: 4rem;
         left: .1rem;
     }
     .acordeon {align-items: flex-end;}
