@@ -451,9 +451,7 @@ header {
     font-weight: bold;
     transition: background 0.3s;
 }
-.btn:hover {
-    background-color: red;
-}
+.btn:hover {background-color: red;}
 /*--------------Css para la sección de Servicios--------------*/
 .contenido-dinamico {
     min-width: 90vh;
