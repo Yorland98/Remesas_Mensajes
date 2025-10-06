@@ -49,34 +49,40 @@ const routes = {
         content: `
         <div class="caja-w" onclick="cerrarContenido(event, 'w')">
                 <div class="opciones-w">
-                    <button class="opcion-w" onclick="mostrarContenido('contenido-w4', event, 'w')">Bogotá</button>
-                    <button class="opcion-w" onclick="mostrarContenido('contenido-w5', event, 'w')">Envigado</button>
-                    <button class="opcion-w" onclick="mostrarContenido('contenido-w6', event, 'w')">Villavicencio</button>
-                    <button class="opcion-w" onclick="mostrarContenido('contenido-w7', event, 'w')">Yopal</button>
-                    <button class="opcion-w" onclick="mostrarContenido('contenido-w8', event, 'w')">PQR's</button>
+                    <button class="opcion-w" onclick="mostrarContenido('contenido-w4', event, 'w')">Arauca</button>
+                    <button class="opcion-w" onclick="mostrarContenido('contenido-w5', event, 'w')">Bogotá</button>
+                    <button class="opcion-w" onclick="mostrarContenido('contenido-w6', event, 'w')">Envigado</button>
+                    <button class="opcion-w" onclick="mostrarContenido('contenido-w7', event, 'w')">Villavicencio</button>
+                    <button class="opcion-w" onclick="mostrarContenido('contenido-w8', event, 'w')">Yopal</button>
+                    <button class="opcion-w" onclick="mostrarContenido('contenido-w9', event, 'w')">PQR's</button>
                 </div>
                 <div class="contenido-w" id="contenido-w4">
+                    <h2>Arauca</h2>
+                    <p>Calle 16 # 18-25 barrio Cristo rey</p>
+                    <br><a href="https://www.google.com/maps?q=6.165447565751389, -75.60225784533067"><img src="static/img/mapas/mapa_sede_Arauca.webp" alt="Mapa de sede en Envigado" class="mapas"></a>
+                </div>
+                <div class="contenido-w" id="contenido-w5">
                     <h2>Bogotá</h2>
                     <p>Dirección. Autopista Medellin Km 3.5 Via Siberia-Cota Terminal Terrestre De Carga Modulo 7 Bodega 41</p>
                     <p>Celular: 3102680869</p>
-                    <br><a href="https://www.google.com/maps?q=4.75119242932939, -74.15100721616543"><img src="static/img/mapas/mapa_sede_Bogota.webp" alt="Mapa de sede en Bogotá" class="mapas"></a>
+                    <br><a href="https://www.google.com/maps?q=7.081877674926206, -70.755682412922"><img src="static/img/mapas/mapa_sede_Bogota.webp" alt="Mapa de sede en Bogotá" class="mapas"></a>
                     </div>
-                <div class="contenido-w" id="contenido-w5">
+                <div class="contenido-w" id="contenido-w6">
                     <h2>Envigado</h2>
                     <p>Dirección. CARRERA 49 A #48 SUR-60 INTERIOR 104 BODEGAS UNIVEGAS</p>
                     <br><a href="https://www.google.com/maps?q=6.165447565751389, -75.60225784533067"><img src="static/img/mapas/mapa_sede_Envigado.webp" alt="Mapa de sede en Envigado" class="mapas"></a>
                 </div>
-                <div class="contenido-w" id="contenido-w6">
+                <div class="contenido-w" id="contenido-w7">
                     <h2>Villavicencio</h2>
                     <p>Parque Comercial La Primavera Carrera 22 #5B-114 Local A6</p>
                     <br><a href="https://www.google.com/maps?q=4.128337117890325, -73.62149655153866"><img src="static/img/mapas/mapa_sede_Vcencio.webp" alt="Mapa de sede en Villavicencio" class="mapas"></a>
                 </div>
-                <div class="contenido-w" id="contenido-w7">
+                <div class="contenido-w" id="contenido-w8">
                     <h2>Yopal</h2>
                     <p>Carrera 5 #34-34 Local 2 Zona Industrial Bodegas de Serpet</p>
                     <br><a href="https://www.google.com/maps?q=5.319710532574351, -72.40521511940669"><img src="static/img/mapas/mapa_sede_Yopal.webp" alt="Mapa de sede en Yopal" class="mapas"></a>
                 </div>
-                <div class="contenido-w" id="contenido-w8">
+                <div class="contenido-w" id="contenido-w9">
                     <form class="form-contacto" action="https://formsubmit.co/yorland1998@gmail.com" method="POST">
                         <label for="name">Nombre: </label>
                         <input type="text" name="Nombre" id="name" placeholder="Nombre completo" required>

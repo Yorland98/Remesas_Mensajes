@@ -121,7 +121,7 @@ header {
     font-size: 1.9rem;
     transition: color 0.3s ease;
 }
-.navbar a:hover,.menú-1 a:hover,.mobile-menu a:hover, .footer-logo:hover, .mobile-menu a:hover, .footer-icons .icon-t:hover, .submenu li:hover, .menú-1 a:hover, .navbar li a:hover, #menu-icon-1:hover .submenu ul li:hover, #menu-icon:hover, .opcion-s:hover, .opcion-g:hover, .opcion-w:hover, .emp-btn:hover, .btn:hover, .opcion:hover {
+.navbar a:hover,.menú-1 a:hover,.mobile-menu a:hover, .footer-logo:hover, .mobile-menu a:hover, .footer-icons .icon-t:hover, .submenu li:hover, .menú-1 a:hover, .navbar li a:hover, #menu-icon-1:hover .submenu ul li:hover, #menu-icon:hover, .opcion-s:hover, .opcion-g:hover, .opcion-w:hover, .emp-btn:hover, .opcion:hover {
     background-color: rgba(255, 0, 0, 0.2);
     box-shadow: inset 0 -0.2rem 0 red;
 }
@@ -240,7 +240,7 @@ header {
 }
 .whatsapp-button {
     position: fixed;
-    bottom: 6rem;
+    bottom: 4.5rem;
     right: .2rem;
     width: 4.5rem;
     height: 4.5rem;
@@ -450,6 +450,9 @@ header {
     font-size: 1.2rem;
     font-weight: bold;
     transition: background 0.3s;
+}
+.btn:hover {
+    background-color: red;
 }
 /*--------------Css para la sección de Servicios--------------*/
 .contenido-dinamico {
