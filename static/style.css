@@ -462,7 +462,7 @@ header {
 }
 .caja-s, .caja-g, .caja-w {
     margin: 8rem auto 0 auto;
-    min-width: 38rem;
+    min-width: 40rem;
     width: 95%;
     background-color: rgba(0, 0, 0, 0.5);
     height: auto;
@@ -485,10 +485,11 @@ header {
 }
 .opcion-s, .opcion-g, .opcion-w {
     position: relative;
+    display: fle;
     background-color: transparent;
     color: white;
     padding: 0.5rem;
-    background-color: rgba(25, 25, 25, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 0rem;
     border: none;
     font-size: 1.7rem;
@@ -533,6 +534,7 @@ header {
 }
 .opcion-s.activo, .opcion-g.activo, .opcion-w.activo, .opcion-s.activo-sub,.opcion-g.activo-sub {
     background-color: rgba(5, 5, 5, 0.6);
+    border-top: solid .1rem red;
     font-weight: bold;
 }
 .subcontenido-s ul li {
