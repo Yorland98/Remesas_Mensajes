@@ -93,7 +93,7 @@ const routes = {
                         <label for="coments">PQR: </label>
                         <textarea name="PQR's" id="coments" cols="30" rows="5" placeholder="Escribe tu Petición, queja o reclamo" required></textarea>
                         <input class="btn" type="submit" value="Enviar">
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <input type="hidden" name="_next" value="https://yorland98.github.io/Remesas_Mensajes/">
                         <input type="hidden" name="_captcha" value="false">
                     </form>
             </div>
@@ -153,7 +153,7 @@ const routes = {
                         <label for="coments">Comentarios adicionales</label>
                         <textarea name="Comentarios adicionales" id="coments" cols="30" rows="2" placeholder="Especificaciones" required></textarea>
                         <input class="btn" type="submit" value="Enviar">
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                        <input type="hidden" name="_next" value="https://yorland98.github.io/Remesas_Mensajes/">
                         <input type="hidden" name="_captcha" value="false">
                     </form>
         </div>
