@@ -160,7 +160,8 @@ header {
     width: 100%;
 }
 .submenu ul li {
-    background-color: rgb(50, 50, 50);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -0.2rem 0 red;
     padding: 0;
     margin: 0;
     display: flex;
@@ -463,7 +464,7 @@ header {
     margin: 8rem auto 0 auto;
     min-width: 38rem;
     width: 95%;
-    background-color: rgba(40, 40, 40, 0.550);
+    background-color: rgba(0, 0, 0, 0.5);
     height: auto;
     max-height: calc(100vh - 20rem);
     padding: 2rem;
@@ -477,10 +478,10 @@ header {
     display: flex;
     margin-bottom: .5rem;
     flex-wrap: wrap;
-    border: .1rem solid rgb(30, 30, 30);
 }
 .opciones-s button, .opciones-g button, .opciones-w button {
-    background-color: rgba(15, 15, 15, 0.6)
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -0.2rem 0 red;
 }
 .opcion-s, .opcion-g, .opcion-w {
     position: relative;
