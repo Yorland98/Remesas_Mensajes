@@ -534,7 +534,7 @@ header {
 }
 .opcion-s.activo, .opcion-g.activo, .opcion-w.activo, .opcion-s.activo-sub,.opcion-g.activo-sub {
     background-color: rgba(5, 5, 5, 0.6);
-    border-top: solid .1rem red;
+    border: solid .1rem red;
     font-weight: bold;
 }
 .subcontenido-s ul li {

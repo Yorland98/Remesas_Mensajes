@@ -169,11 +169,11 @@ const routes = {
                 <button class="opcion-g" onclick="mostrarContenido('contenido-g2', event, 'g')">Gestión de Riesgo</button>
             </div>
                 <div class="contenido-g" id="contenido-g1">
-                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g1', event, 'g')">Calidad</button>
-                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g2', event, 'g')">Satisfacción</button>
-                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g3', event, 'g')">Transparencia</button>
-                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g4', event, 'g')">Verdes</button>
-                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g5', event, 'g')">Protección</button>
+                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g1', event, 'g')">Compromiso por la Calidad</button>
+                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g2', event, 'g')">Comprometido por la Satisfacción</button>
+                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g3', event, 'g')">Comprometidos con la Transparencia</button>
+                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g4', event, 'g')">Comprometidos con el medio ambiente</button>
+                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g5', event, 'g')">Protección de datos</button>
                 <div class="subcontenido-g" id="subcontenido-g1">
                     <h2>Compromiso por la Calidad del Servicio</h2><br>
                     <p>Consideramos que la calidad de nuestro servicio es la piedra 
@@ -225,7 +225,7 @@ const routes = {
                 </div>
             </div>
             <div class="contenido-g" id="contenido-g2">
-                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g6', event, 'g')">Gestionamos</button>
+                <button class="opcion-g" onclick="mostrarSubcontenido('subcontenido-g6', event, 'g')">Evitar riesgos no es una opción...</button>
                 <div class="subcontenido-g" id="subcontenido-g6">
                     <h2>Gestión del Riesgo</h2><br>
                     <p>Nuestra gestión del riesgo trata de identificar y cuantificar las 
