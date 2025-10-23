@@ -229,7 +229,7 @@ submenuItemsLinks.forEach(link => {
         }
     }
 }
-    handleHoverFunctionality();
+handleHoverFunctionality();
     window.addEventListener('resize', () => {
         if (window.innerWidth > 620) {
             closeMenu();
